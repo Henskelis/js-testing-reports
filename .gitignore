@@ -1,0 +1,19 @@
+# System files
+.DS_Store
+
+# Logs
+logs
+*.log
+.pnpm-debug.log*
+
+# Dependencies
+node_modules
+
+# Builds
+dist
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
