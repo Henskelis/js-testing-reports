@@ -2,18 +2,22 @@
 .DS_Store
 
 # Logs
-logs
+logs/
 *.log
 .pnpm-debug.log*
 
 # Dependencies
-node_modules
+node_modules/
 
 # Builds
-dist
+dist/
 
 # Editor files
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
-.idea
+.idea/
+
+# Environment variables
+.env
+.env.production
