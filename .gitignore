@@ -21,3 +21,6 @@ dist/
 # Environment variables
 .env
 .env.production
+
+# Generated files
+.astro/

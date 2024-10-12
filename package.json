@@ -3,11 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "format": "biome check --write --linter-enabled=false --no-errors-on-unmatched",
+    "lint": "biome lint --fix --no-errors-on-unmatched"
+  },
   "license": "MIT",
   "packageManager": "pnpm@9.12.1",
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=9.5.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@types/node": "catalog:",
+    "typescript": "catalog:"
   }
 }
