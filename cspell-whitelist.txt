@@ -1,3 +1,7 @@
 biomejs
+esbuild
+henskelis
+jsdom
 lefthook
 preinstall
+vitest

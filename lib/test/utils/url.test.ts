@@ -5,7 +5,7 @@ import {
   getFormSlugFromUrl,
   getHostPathFromUrl,
   getPrefixedParamsFromUrl,
-} from "../../src/utils";
+} from "../../src/utils/index.js";
 
 describe.concurrent("[lib] utils/url", () => {
   const formIdUrl = "https://www.website.com/player/fid/5b759aaa441eec5fb400002d?&f=3&gid=123";

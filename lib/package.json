@@ -19,6 +19,7 @@
     "@vitest/ui": "catalog:",
     "jsdom": "catalog:",
     "tslib": "catalog:",
+    "typescript": "catalog:",
     "vitest": "catalog:"
   },
   "license": "MIT",

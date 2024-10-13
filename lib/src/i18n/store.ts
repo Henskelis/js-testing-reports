@@ -32,7 +32,7 @@ export const setLocale = (options?: LocaleOptions): Locale => {
   return fallback;
 };
 
-const store: I18nStore = {
+export const store: I18nStore = {
   locale: setLocale(),
   dictionary: locales.reduce((acc, v) => Object.assign(acc, { [v]: {} }), {} as TranslationObject),
 };
@@ -88,5 +88,3 @@ export const translate = (key: string, options?: TranslateOptions) => {
 
   return `Translation missing for ${key}`;
 };
-
-export default store;

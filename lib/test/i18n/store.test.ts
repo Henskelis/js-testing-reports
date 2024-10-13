@@ -1,5 +1,5 @@
 import { beforeAll, describe, expect, it, vi } from "vitest";
-import { loadTranslations, setLocale, translate } from "../../src/i18n";
+import { loadTranslations, setLocale, translate } from "../../src/i18n/index.js";
 
 describe.concurrent("[lib] i18n/store", () => {
   const translations = {
