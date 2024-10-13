@@ -9,6 +9,7 @@
     "dev": "turbo run dev",
     "test": "turbo run test",
     "build": "turbo run build",
+    "check:types": "turbo run check:types",
     "format": "biome check --write --linter-enabled=false --no-errors-on-unmatched",
     "lint": "biome lint --fix --no-errors-on-unmatched",
     "check:spell": "cspell --unique **"

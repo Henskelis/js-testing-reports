@@ -1,7 +1,10 @@
+astro
+astrojs
 biomejs
 esbuild
 henskelis
 jsdom
 lefthook
+outdir
 preinstall
 vitest
