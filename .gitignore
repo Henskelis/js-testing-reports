@@ -27,3 +27,6 @@ dist/
 
 # Turborepo
 .turbo
+
+# Test coverages
+.coverage/

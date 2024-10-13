@@ -1,0 +1,30 @@
+{
+  "name": "@henskelis/lib",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "check:types": "tsc"
+  },
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*/index.ts"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "catalog:",
+    "@vitest/ui": "catalog:",
+    "jsdom": "catalog:",
+    "tslib": "catalog:",
+    "vitest": "catalog:"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@9.12.1",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.5.0"
+  }
+}
