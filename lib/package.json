@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "check:types": "tsc --emitDeclarationOnly false --noEmit",
     "test": "vitest run",
-    "test:ui": "vitest --ui",
-    "check:types": "tsc"
+    "test:ui": "vitest --ui"
   },
   "main": "./src/index.ts",
   "exports": {
